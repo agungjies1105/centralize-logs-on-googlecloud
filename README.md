@@ -1,1 +1,2 @@
+#Overview of Audit Log Management on Google Cloud
 Centralizing audit logs in Google Cloud is a crucial practice for security monitoring, compliance, and operational insights. By consolidating logs from various projects and services into a single, manageable location, organizations can enhance their security posture and simplify analysis. This guide outlines the key concepts and steps to effectively centralize your audit logs on Google Cloud.
