@@ -17,5 +17,12 @@ Audit Log Management is how we can Centralizing audit logs in Google Cloud is a 
 gcloud logging buckets update BUCKET_NAME \
    --location=LOCATION --project=PROJECT_ID \
    --retention-days=365
-3. 
+3. Create Log Sink in Folder Level
+gcloud logging sinks create SINK_NAME \
+logging.googleapis.com/projects/PROJECT_ID  \
+  --log-filter='logName:cloudaudit.googleapis.com' \
+  --description="Audit logs from my organization" \
+  --include-children
+4. Setup IAM Roles Created to Central Log Management Project and Grant Permission
+5. 
 
